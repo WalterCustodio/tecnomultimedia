@@ -1,0 +1,50 @@
+float d;
+
+void setup() {
+  size(400, 400);
+  d=50;
+}
+// col = map(mouseX, 0, width, 0, 100);
+// background(col, col, col);
+
+void draw() {
+
+  background(0);
+
+
+  // centro y 
+  fill(255, 255, 0);
+  ellipse(200, 25, d, d);
+  fill(165, 61, 160);
+  ellipse(200, 375, d, d);
+
+  //centro x
+  fill(255, 88, 13);
+  ellipse(25, 200, d, d);
+  fill(30, 154, 113);
+  ellipse(375, 200, d, d);  
+
+  // diagonal arriba izq
+  fill(255, 196, 79);
+  ellipse(111, 50, d, d);
+  fill(247, 150, 70);
+  ellipse(50, 111, d, d);
+
+  //arriba der
+  fill(117, 255, 13);
+  ellipse(289, 50, d, d);
+  fill(0, 176, 80);
+  ellipse(350, 111, d, d);
+
+  //abajo izq
+  fill(255, 0, 0);
+  ellipse(50, 289, d, d);
+  fill(255, 88, 13);
+  ellipse(111, 350, d, d);
+
+  //abajo der
+  fill(134, 84, 208);
+  ellipse(289, 350, d, d);
+  fill(23, 55, 94);
+  ellipse(350, 289, d, d);
+}
