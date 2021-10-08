@@ -1,3 +1,6 @@
+//actualización tardía: dejo acá el link al video de youtube https://youtu.be/9Nlvh9bCEdo
+
+
 class AventuraGrafica {
 
   PFont type1;
